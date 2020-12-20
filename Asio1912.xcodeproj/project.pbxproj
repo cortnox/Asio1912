@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		0BFE3AA1258EA0A600AE58D7 /* Asio1912 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Asio1912; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BFE3AA4258EA0A600AE58D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0BFE3ACB258FBF2800AE58D7 /* NetCommons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetCommons.h; sourceTree = "<group>"; };
+		0BFE3ACD258FC00800AE58D7 /* NetMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetMessage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,8 @@
 		0BFE3A98258EA0A600AE58D7 = {
 			isa = PBXGroup;
 			children = (
+				0BFE3ACD258FC00800AE58D7 /* NetMessage.h */,
+				0BFE3ACB258FBF2800AE58D7 /* NetCommons.h */,
 				0BFE3AA3258EA0A600AE58D7 /* Asio1912 */,
 				0BFE3AA2258EA0A600AE58D7 /* Products */,
 			);
