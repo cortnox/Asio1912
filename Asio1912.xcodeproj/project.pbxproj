@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B41C2B0259016C8009BFC71 /* Client9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B41C2AE259016C8009BFC71 /* Client9.cpp */; };
+		0B41C2B625901E82009BFC71 /* _____Ncanetna9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B41C2B425901E82009BFC71 /* _____Ncanetna9.cpp */; };
 		0BFE3AA5258EA0A600AE58D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BFE3AA4258EA0A600AE58D7 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,10 +25,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B41C29425901279009BFC71 /* _____SimpleClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_____SimpleClient.h"; sourceTree = "<group>"; };
+		0B41C29B259013B6009BFC71 /* NetCommons9.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NetCommons9.hpp; sourceTree = "<group>"; };
+		0B41C2A725901666009BFC71 /* NetClient9.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NetClient9.hpp; sourceTree = "<group>"; };
+		0B41C2AB259016A7009BFC71 /* NetMessage9.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NetMessage9.hpp; sourceTree = "<group>"; };
+		0B41C2AE259016C8009BFC71 /* Client9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Client9.cpp; sourceTree = "<group>"; };
+		0B41C2AF259016C8009BFC71 /* Client9.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Client9.hpp; sourceTree = "<group>"; };
+		0B41C2B425901E82009BFC71 /* _____Ncanetna9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "_____Ncanetna9.cpp"; sourceTree = "<group>"; };
+		0B41C2B525901E82009BFC71 /* Ncanetna9.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ncanetna9.hpp; sourceTree = "<group>"; };
 		0BFE3AA1258EA0A600AE58D7 /* Asio1912 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Asio1912; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BFE3AA4258EA0A600AE58D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		0BFE3ACB258FBF2800AE58D7 /* NetCommons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetCommons.h; sourceTree = "<group>"; };
-		0BFE3ACD258FC00800AE58D7 /* NetMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetMessage.h; sourceTree = "<group>"; };
+		0BFE3ACB258FBF2800AE58D7 /* _____NetCommons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_____NetCommons.h"; sourceTree = "<group>"; };
+		0BFE3ACD258FC00800AE58D7 /* _____NetMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_____NetMessage.h"; sourceTree = "<group>"; };
+		0BFE3ACF259001CE00AE58D7 /* _____NetClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_____NetClient.h"; sourceTree = "<group>"; };
+		0BFE3AD02590054000AE58D7 /* _____NcaNeta9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_____NcaNeta9.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,11 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B41C29E2590141A009BFC71 /* NetCommons */ = {
+			isa = PBXGroup;
+			children = (
+				0B41C2AB259016A7009BFC71 /* NetMessage9.hpp */,
+				0B41C2AE259016C8009BFC71 /* Client9.cpp */,
+				0B41C2B525901E82009BFC71 /* Ncanetna9.hpp */,
+				0B41C2AF259016C8009BFC71 /* Client9.hpp */,
+				0B41C2A725901666009BFC71 /* NetClient9.hpp */,
+				0B41C29B259013B6009BFC71 /* NetCommons9.hpp */,
+			);
+			path = NetCommons;
+			sourceTree = "<group>";
+		};
 		0BFE3A98258EA0A600AE58D7 = {
 			isa = PBXGroup;
 			children = (
-				0BFE3ACD258FC00800AE58D7 /* NetMessage.h */,
-				0BFE3ACB258FBF2800AE58D7 /* NetCommons.h */,
 				0BFE3AA3258EA0A600AE58D7 /* Asio1912 */,
 				0BFE3AA2258EA0A600AE58D7 /* Products */,
 			);
@@ -62,8 +85,23 @@
 			isa = PBXGroup;
 			children = (
 				0BFE3AA4258EA0A600AE58D7 /* main.cpp */,
+				0B41C29E2590141A009BFC71 /* NetCommons */,
+				0BFE3ACE258FE3C400AE58D7 /* _____NetCommons */,
 			);
 			path = Asio1912;
+			sourceTree = "<group>";
+		};
+		0BFE3ACE258FE3C400AE58D7 /* _____NetCommons */ = {
+			isa = PBXGroup;
+			children = (
+				0B41C2B425901E82009BFC71 /* _____Ncanetna9.cpp */,
+				0BFE3ACB258FBF2800AE58D7 /* _____NetCommons.h */,
+				0BFE3ACF259001CE00AE58D7 /* _____NetClient.h */,
+				0BFE3AD02590054000AE58D7 /* _____NcaNeta9.h */,
+				0BFE3ACD258FC00800AE58D7 /* _____NetMessage.h */,
+				0B41C29425901279009BFC71 /* _____SimpleClient.h */,
+			);
+			path = "_____NetCommons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B41C2B625901E82009BFC71 /* _____Ncanetna9.cpp in Sources */,
+				0B41C2B0259016C8009BFC71 /* Client9.cpp in Sources */,
 				0BFE3AA5258EA0A600AE58D7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +287,10 @@
 				DEVELOPMENT_TEAM = B2U8JV822X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = /usr/local/include/;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -258,6 +302,10 @@
 				DEVELOPMENT_TEAM = B2U8JV822X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = /usr/local/include/;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
